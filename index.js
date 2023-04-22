@@ -144,6 +144,12 @@ app.put('/tasks/:id', (req,res) => {
 
     const id = parseInt(req.params.id);
 
+    if(req.body.title === "" || req.body.description === ""){
+
+        res.status(400)
+        return res.send("Bad request");
+    }
+
     for(let i=0;i<tasks.length;i++)
     {
         if(id == tasks[i].id)
