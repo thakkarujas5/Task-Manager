@@ -1,3 +1,5 @@
+# GET '/tasks'
+
 ## Query Parameters:-
 
   1) isCompleted (optional): If present, filter the tasks by completion status. If set to true, return only completed tasks. If set to false, return only incomplete tasks.
