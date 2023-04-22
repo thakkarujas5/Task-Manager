@@ -36,7 +36,7 @@
 
 # GET '/tasks/priority/:level'
 
-# Request Parameters:-
+## Request Parameters:-
 
 1) id:- The id of the priority which the user wants to get. 1 for high, 2 for medium nd 3 for low.
 
